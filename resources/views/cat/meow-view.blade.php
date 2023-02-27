@@ -9,7 +9,7 @@
 <body>
 
     @for ($i = 0; $i < $meowNumber; $i++)
-    Meow meow gimme love 
+    Meow meow gimme love and food
 @endfor
 {{$meowNumber}}
 
