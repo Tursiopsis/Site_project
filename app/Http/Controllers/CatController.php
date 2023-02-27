@@ -18,4 +18,13 @@ class CatController extends Controller
             'meowNumber' => $meowNumber 
         ]);
     }
+    public function purrMethod ($idAfterSlash)
+    {
+        $meowNumber = $idAfterSlash*10;
+
+        return view('cat.purr-view', [
+            'someNumber' => 2222,
+            'meowNumber' => $meowNumber 
+        ]);
+    }
 }

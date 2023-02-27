@@ -26,3 +26,5 @@ Route::get('/my-way', function () {
 Route::get('/test/lalala/{idAfterSlash}', [TestController::class, 'myFirstMethod']);
 
 Route::get('/cat-meow/{idAfterSlash}', [CatController::class, 'meowMethod']);
+
+Route::get('/cat-purr/{idAfterSlash}', [CatController::class, 'purrMethod']);
